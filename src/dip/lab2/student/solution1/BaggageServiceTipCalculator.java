@@ -1,6 +1,6 @@
 package dip.lab2.student.solution1;
 
-public class BaggageServiceTipCalculator implements TipService{
+public class BaggageServiceTipCalculator implements TipCalculator{
     private static final double MIN_BILL = 0.00;
     private static final double MAX_BILL = 100.00;
     private static final String BILL_ENTRY_ERR =
@@ -12,9 +12,7 @@ public class BaggageServiceTipCalculator implements TipService{
 
     private double baseTipPerBag;
     private int bagCount;
-    public enum ServiceQuality {
-        GOOD, FAIR, POOR
-    }
+    
     private ServiceQuality serviceQuality;
 
     public BaggageServiceTipCalculator(ServiceQuality q, int bags) {

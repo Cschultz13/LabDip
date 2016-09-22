@@ -9,8 +9,7 @@ package dip.lab2.student.solution1;
  *
  * @author Carson Schultz
  */
-public class TipService {
-    public double getTip(TipCalculator tC){
-        return tC.getTip();
-    }
+public interface TipCalculator {
+    
+    public abstract double getTip();
 }
