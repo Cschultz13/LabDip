@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author Carson Schultz
  */
-public class GUIInput implements MessageInputService {
+public class GUIInput implements MessageInputMethod {
 
     private String input;
 

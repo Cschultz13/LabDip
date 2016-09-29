@@ -11,10 +11,10 @@ package dip.lab3.student.solution1;
  */
 public class StartUp {
    public static void main(String[] args) {
-        MessageOutputService output = new ConsoleWriter();
-        MessageInputService input = new KeyboardInput();
+        MessageOutputMethod output = new GUIWriter();
+        MessageInputMethod input = new GUIInput();
 
-        MessageInputOutputManager message = new MessageInputOutputManager(input, output);
+        MessageManager message = new MessageManager(input, output);
 
         message.getOutput();
 

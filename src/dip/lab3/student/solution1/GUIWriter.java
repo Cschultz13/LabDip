@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author Carson Schultz
  */
-public class GUIWriter implements MessageOutputService {
+public class GUIWriter implements MessageOutputMethod {
 
     @Override
     public void outputMessage(String line) {

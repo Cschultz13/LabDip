@@ -9,7 +9,7 @@ package dip.lab3.student.solution1;
  *
  * @author Carson Schultz
  */
-public interface MessageInputService {
+public interface MessageInputMethod {
 
     public abstract String inputMessage();
 }

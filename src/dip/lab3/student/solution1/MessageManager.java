@@ -9,13 +9,13 @@ package dip.lab3.student.solution1;
  *
  * @author Carson Schultz
  */
-public class MessageInputOutputManager {
+public class MessageManager {
 
 
-    private MessageInputService input;
-    private MessageOutputService output;
+    private MessageInputMethod input;
+    private MessageOutputMethod output;
 
-    public MessageInputOutputManager(MessageInputService input, MessageOutputService output) {
+    public MessageManager(MessageInputMethod input, MessageOutputMethod output) {
         this.input = input;
         this.output = output;
     }

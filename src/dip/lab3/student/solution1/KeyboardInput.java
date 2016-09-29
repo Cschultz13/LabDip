@@ -11,7 +11,7 @@ package dip.lab3.student.solution1;
  */
 import java.util.Scanner;
 
-public class KeyboardInput implements MessageInputService {
+public class KeyboardInput implements MessageInputMethod {
 
     private String message;
 
